@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Websites</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-amazon {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+	<form method="get" action="./WebsiteServlet">
+		<h1>Select one of the following:</h1><br>
+		
+		<input type="radio" name="website" value="google" checked>
+		<label class="fa fa-google"></label><br>
+		<input type="radio" name="website" value="youtube">
+		<label class="fa fa-youtube"></label><br>
+		<input type="radio" name="website" value="twitter">
+		<label class="fa fa-twitter"></label><br>
+		<input type="radio" name="website" value="amazon">
+		<label class="fa fa-amazon"></label><br>
+		<input type="radio" name="website" value="facebook">
+		<label class="fa fa-facebook"></label><br>
+
+		<br><br>
+		<input type="submit" value="submit"></input>
+	</form>
+</body>
+</html>
